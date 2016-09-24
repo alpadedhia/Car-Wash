@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS "CarWashDetails";
+CREATE TABLE "CarWashDetails" ("CarWashCompanyName" TEXT, "Location" TEXT, "Address" TEXT, "PinCode" TEXT, "Latitude" NUMERIC, "Longitude" NUMERIC, "Phone" TEXT, "OpeningTimes" TEXT, "Favorite" BOOL NOT NULL  DEFAULT NO, "CarWashLocalName" TEXT);
+INSERT INTO "CarWashDetails" VALUES('AAC car wash open 24/7','Cockburn','71 Shallcross St Yangebup','WA 6164',-32.120382,115.795095,NULL,NULL,'NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('AAC car wash open 24/7','Morley','501 Walter RD East Morley','WA 6062',-31.894263,115.924755,NULL,NULL,'NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('AAC car wash open 24/7','Pearsall','Cnr Lenore rd and ocean reef rd Pearsall','WA 6065',-31.785947,115.826296,NULL,NULL,'NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','East Perth','Cnr East Pde & Brown St','WA 6004',-31.950466,115.876498,'(08) 9421 1280','Mon to Sun-8:30am - 5:30pm','NO','BP Connect East Perth');
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','Carlisle','Cnr Archer & Orrong Rds','WA 6101',-31.971833,115.91887,'(08) 9361 7210','Mon to Sun-8:30am - 5:30pm','NO','BP Connect Carlisle');
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','Innaloo','386 Scarborough Rd','WA 6018',-31.902418,115.799252,'(08) 9244 2322','Mon to Sun -8:30am - 5:30pm','NO','BP Connect Nookenburra');
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','South Perth','9 Mends St','WA 6151',-31.97246,115.851961,'(08) 9368 1156','Mon to Sun -8:30am - 5:30pm','NO','BP Connect South Perth');
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','Morley','257 Walter Rd','WA 6062',-31.894657,115.89668,'(08) 9375 3699','Mon to Sun -8:30am - 5:30pm','NO','BP Connect');
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Wembley','240 Cambridge St,Wembley','WA 6014',-31.940287,115.820208,'(08) 9381 1000','Mon to Sun -8:30am - 5:30pm','NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Myaree','246 Leach Hwy, Myaree','WA 6154',32.045601,115.820253,'(08) 9317 4233','Mon to Sun -8:30am - 5:30pm','NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Burrendah','Cnr Burrendah & Pinetree Gully Rd, Willetton','WA 6155',-32.058271,115.882023,'(08) 9332 1666','Mon to Sun -8:30am - 5:30pm','NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Mandurah Forum','Pinjarra Rd, Mandurah','WA 6210',-32.536463,115.741828,'(08) 9581 5248','Mon to Sun -8:30am - 5:30pm','NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Palm Springs','Corner of Warnbro Sound Ave & Halliburton St, Warnbro','WA 6169',-32.348213,115.761457,'(08) 9593 4441','Mon to Sun -8:30am - 5:30pm','NO',NULL);
+INSERT INTO "CarWashDetails" VALUES('BP Car Washes','BP Connect Riverton','339 High Rd ','WA 6148',-32.038801,115.904382,NULL,'Mon to Sun - 8:30am - 5:30pm','NO',NULL);
